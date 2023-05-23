@@ -746,6 +746,11 @@ header nav .form i{
     bottom: -55px;
     right: 40px;
 }
+@media (max-width: 991px) {
+    .quote q::before{
+        left: 0px;
+    }
+}
 /* end Quote */
 /* start pricing */
 .pricing {
